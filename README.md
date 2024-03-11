@@ -15,6 +15,9 @@ The core functionality of Iranian PlateVision is powered by YOLO (You Only Look 
 The Streamlit webapp was developed with inspiration and assistance provided by the [ yolov8-streamlit-detection-tracking
 ](https://github.com/CodingMantras/yolov8-streamlit-detection-tracking) GitHub repository, which provided valuable insights and resources during the development process.
 
+![Uploading Screenshot from 2024-03-11 12-40-42.png…]()
+
+
 ## Features
 
 - **Streamlit Interface**: Offers an intuitive and interactive user interface powered by Streamlit, allowing users to easily upload images or access live video feeds for real-time plate recognition.
