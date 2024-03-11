@@ -29,7 +29,7 @@ The Streamlit webapp was developed with inspiration and assistance provided by t
    ```
 ### 2. Navigate to the project directory:
    ```bash
-   cd Iranian-LPR-Streamlit-App
+   cd ./Iranian-LPR-Streamlit-App
    ```
 ### 3. Make 'webapp.sh' executable:
    ```bash
