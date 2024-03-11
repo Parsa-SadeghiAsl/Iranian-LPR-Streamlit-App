@@ -30,3 +30,10 @@ List the key features of your project. Highlight what makes it unique or useful.
 
    ```bash
    git clone https://github.com/your_username/your_project.git
+
+2.Navigate to the project directory:
+   
+   ```bash
+   cd your_project
+
+3.
