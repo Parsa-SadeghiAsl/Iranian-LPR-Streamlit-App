@@ -11,13 +11,11 @@ user-friendly License Plate Recognition (LPR) application built using Streamlit.
 
 ## Introduction
 This webapp is an user-friendly License Plate Recognition (LPR) application built using Streamlit. Designed specifically for Iranian license plates, this app leverages cutting-edge machine learning models to accurately detect and recognize license plate numbers from images or live video streams.
-The core functionality of Iranian PlateVision is powered by YOLO (You Only Look Once) for object detection and OCR (Optical Character Recognition). The YOLOv8 model enables fast and accurate detection of vehicles and license plates, while the OCR model accurately extracts the alphanumeric characters from the detected license plates.
+The core functionality of Iranian PlateVision is powered by YOLO (You Only Look Once) for object detection and OCR (Optical Character Recognition). The YOLOv8 model enables fast and accurate detection of license plates, while the OCR model accurately extracts the alphanumeric characters from the detected license plates.
 The Streamlit webapp was developed with inspiration and assistance provided by the [ yolov8-streamlit-detection-tracking
 ](https://github.com/CodingMantras/yolov8-streamlit-detection-tracking) GitHub repository, which provided valuable insights and resources during the development process.
 
 ## Features
-
-List the key features of your project. Highlight what makes it unique or useful.
 
 - **Streamlit Interface**: Offers an intuitive and interactive user interface powered by Streamlit, allowing users to easily upload images or access live video feeds for real-time plate recognition.
 - **Database Integration**: Seamlessly integrates with databases for storing and managing recognized license plate data, facilitating easy retrieval and analysis.
