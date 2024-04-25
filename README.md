@@ -34,9 +34,9 @@ The Streamlit webapp was developed with inspiration and assistance provided by t
    ```bash
    cd ./Iranian-LPR-Streamlit-App
    ```
-### 3. Make 'webapp.sh' executable:
+### 3. Make 'setup.sh' executable:
    ```bash
-   chmod +x webapp.sh
+   chmod +x setup.sh
    ```
 ### 4. Run the setup script to create a virtual environment and install dependencies:
    ```bash
