@@ -15,7 +15,8 @@ The core functionality of Iranian PlateVision is powered by YOLO (You Only Look 
 The Streamlit webapp was developed with inspiration and assistance provided by the [ yolov8-streamlit-detection-tracking
 ](https://github.com/CodingMantras/yolov8-streamlit-detection-tracking) GitHub repository, which provided valuable insights and resources during the development process.
 
-![Screenshot from 2024-03-11 12-44-07](https://github.com/Parsa-SadeghiAsl/Iranian-LPR-Streamlit-App/assets/101510809/c6deda34-2822-47bb-a817-140b46334309)
+![Screenshot from 2024-06-06 12-59-42](https://github.com/Parsa-SadeghiAsl/Iranian-LPR-Streamlit-App/assets/101510809/45a2a2e3-7695-4f67-9019-272d1dcd2825)
+
 
 
 ## Features
