@@ -1,6 +1,6 @@
 # Iranian-LPR-Streamlit-App
 
-user-friendly License Plate Recognition (LPR) application built using Streamlit.
+A user-friendly License Plate Recognition (LPR) application built using Streamlit.
 
 ## Table of Contents
 
@@ -8,16 +8,18 @@ user-friendly License Plate Recognition (LPR) application built using Streamlit.
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Future Work](#future-work)
 
 ## Introduction
-This webapp is an user-friendly License Plate Recognition (LPR) application built using Streamlit. Designed specifically for Iranian license plates, this app leverages cutting-edge machine learning models to accurately detect and recognize license plate numbers from images or live video streams.
-The core functionality of Iranian PlateVision is powered by YOLO (You Only Look Once) for object detection and OCR (Optical Character Recognition). The YOLOv8 model enables fast and accurate detection of license plates, while the OCR model accurately extracts the alphanumeric characters from the detected license plates.
-The Streamlit webapp was developed with inspiration and assistance provided by the [ yolov8-streamlit-detection-tracking
-](https://github.com/CodingMantras/yolov8-streamlit-detection-tracking) GitHub repository, which provided valuable insights and resources during the development process.
+This web app is a user-friendly License Plate Recognition (LPR) application specifically designed for Iranian license plates. It leverages cutting-edge machine learning models to accurately detect and recognize license plate numbers from images or live video streams.
+
+The core functionality of the Iranian PlateVision is powered by YOLO (You Only Look Once) for object detection and OCR (Optical Character Recognition). The YOLOv8 model enables fast and accurate detection of license plates, while the OCR model accurately extracts the alphanumeric characters from the detected license plates.
+
+The Streamlit web app was developed with inspiration and assistance from the [yolov8-streamlit-detection-tracking](https://github.com/CodingMantras/yolov8-streamlit-detection-tracking) GitHub repository, which provided valuable insights and resources during the development process.
 
 ![Screenshot from 2024-06-06 12-59-42](https://github.com/Parsa-SadeghiAsl/Iranian-LPR-Streamlit-App/assets/101510809/45a2a2e3-7695-4f67-9019-272d1dcd2825)
-
-
 
 ## Features
 
@@ -52,7 +54,19 @@ The Streamlit webapp was developed with inspiration and assistance provided by t
    ```
 ### 2. Open your web browser and navigate to `http://localhost:8501` to view the application.
 
-### 3. Offline Videos For LPR can be added/changed through 'setting.py' file:
+### 3. Offline Videos for LPR can be added/changed through the 'setting.py' file:
+   Specific instructions will be provided in the future...
 
-specific instruction will be provided in the future...
+## License
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contributing
+
+Contributions are welcome! Please read the [CONTRIBUTING](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
+
+## Future Work
+
+- Add more detailed documentation.
+- Implement additional features such as multi-language support.
+- Improve the accuracy of license plate recognition with further training.
