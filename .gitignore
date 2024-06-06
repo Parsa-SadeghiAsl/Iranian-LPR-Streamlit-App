@@ -1,0 +1,11 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+
+# Ignore database files
+data/database.db
+
+
+# Ignore other sensitive or unnecessary files
+*.pyc
+*.log
