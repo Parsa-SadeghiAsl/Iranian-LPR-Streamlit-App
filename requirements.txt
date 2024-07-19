@@ -2,7 +2,7 @@ altair==5.2.0
 attrs==23.2.0
 blinker==1.7.0
 cachetools==5.3.3
-certifi==2024.2.2
+certifi>=2024.07.04
 charset-normalizer==3.3.2
 click==8.1.7
 contourpy==1.2.0
