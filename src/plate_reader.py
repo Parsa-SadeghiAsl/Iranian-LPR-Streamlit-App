@@ -50,7 +50,7 @@ def PlateReader(PlateReaderModelPath, image, conf=0.65):
     # Assuming PlateReaderModelPath is available in this module
     CLASS_NAMES_DICT = PlateReaderModelPath.model.names
     results = PlateReaderModelPath(image, verbose=False)
-    pelak = []
+    plate = []
     for r in results:
         boxes = r.boxes
         for box in boxes:
@@ -59,15 +59,15 @@ def PlateReader(PlateReaderModelPath, image, conf=0.65):
             cls = int(box.cls[0])
             currentClass = CLASS_NAMES_DICT[cls]
             if ConfOfBox >= conf:
-                pelak.append([x1.item(), currentClass])
-    pelak.sort(key=lambda x: x[0])
-    cop = str()
-    for p in pelak:
-        cop += f'{p[1]}'
+                plate.append([x1.item(), currentClass])
+    plate.sort(key=lambda x: x[0])
+    plate_string = str()
+    for p in plate:
+        plate_string += f'{p[1]}'
 
-    if count_digits(cop) == 7 and cop[:2].isnumeric() and cop[-5:].isnumeric():
-        cop = cop.strip()
-        cop = cop.replace(cop[2:-5], farsi_to_english[cop[2:-5]])
-        return cop
+    if count_digits(plate_string) == 7 and plate_string[:2].isnumeric() and plate_string[-5:].isnumeric():
+        plate_string = plate_string.strip()
+        plate_string = plate_string.replace(plate_string[2:-5], farsi_to_english[plate_string[2:-5]])
+        return plate_string
     else:
         return False
