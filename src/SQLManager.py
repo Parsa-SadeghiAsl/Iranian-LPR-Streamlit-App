@@ -7,19 +7,16 @@ class DatabaseManager:
   This class manages interactions with the SQLite database.
   """
 
-  def __init__(self, db_path):
+  def __init__(self, directory, filename):
     """
     Initializes the database connection.
 
-    Args:
-      db_path (str): Path to the SQLite database file.
     """
-
-    if not os.path.exists(db_path):
-        # File doesn't exist, create it
-        with open(db_path, 'w'):  # 'w' mode creates the file if it doesn't exist
-            pass
-        print(f"File '{db_path}' created successfully.")
+    db_path = os.path.join(directory, filename)
+    
+    if not os.path.exists(directory):
+        # directory doesn't exist, create it
+        os.makedirs(directory)
 
     self.conn = sqlite3.connect(db_path)
     self.conn.execute('PRAGMA encoding = "UTF-8"')

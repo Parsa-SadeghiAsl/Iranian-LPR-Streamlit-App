@@ -29,7 +29,7 @@ st.set_page_config(
 st.title("Computer-Vision LPR")
 
 # Database connection and initialization
-db_manager = DatabaseManager('data/database.db')
+db_manager = DatabaseManager('data', 'database.db')
 db_manager.create_recognized_plates_table()
 
 # Sidebar
